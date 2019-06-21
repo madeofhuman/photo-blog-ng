@@ -8,7 +8,7 @@ footer {
     clear: both;
 }
 
-app-entry { /* move to entry.component.css */
+app-photo { /* move to photo.component.css */
     display: block;
     padding: 1em;
     max-width: 1200px;
@@ -19,7 +19,7 @@ app-entry { /* move to entry.component.css */
     padding: 1em 0;
 }
 
-app-entry-like {
+app-photo-like {
   margin-right: 1em;
 }
 h2 {
@@ -88,10 +88,10 @@ img {
 .comment.odd {
     background-color: #ccc;
 }
-app-entry-comment-form form {
+app-photo-comment-form form {
   margin-top: 2em;
 }
-app-entry-comment-form div {
+app-photo-comment-form div {
     padding: .5em 0;
 }
 
@@ -99,13 +99,13 @@ label {
     display: block;
 }
 
-app-entry-comment-form button {
+app-photo-comment-form button {
     background-color: #003f3f;
     color: #fff;
     padding: .5em .75em;
 }
 
-app-entry-comment-form textarea {
+app-photo-comment-form textarea {
     width: 100%;
     box-sizing: border-box;
     height: 200px;
